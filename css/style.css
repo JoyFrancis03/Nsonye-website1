@@ -1,0 +1,211 @@
+*{
+    margin:0
+    padding:0
+    box-sizing: border-box
+    font-family: sans-serif;
+}
+.logo1{
+    width: 1%;
+    height: 0px;
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 8%;
+    padding-top: 0%;
+}
+button{
+    width: 110px;
+    text-align: center;
+    font-weight: light;
+    border: 0px solid #009688;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(28, 158, 28);
+    line-height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border-style:solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    border: 1px solid red;
+    background: transparent;
+}
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 0px 22px;
+    position: relative;
+}
+.navbar ul li a {
+color: black;
+text-decoration: none;
+}
+.navbar .toggle-btn{
+    color: grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    padding: 0%;
+    float: top;
+}
+
+.middlesection{
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+}
+.center {
+    background: url(../homeBg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.center{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
+h1 {
+    font-size: x-large;
+    padding-top: -200px;
+    text-align:top;
+    color: white;
+    font-size: 30px;
+}
+.accomplishments  {
+    font-size: 15px;
+}
+.feats .accomplishments p{
+    display: inline-block;
+    padding: 2px;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+form.example .search ::placeholder {
+    color: #fff;
+} 
+ form.example input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    float: center;
+    width: 50%;
+    background: transparent;
+    align-content: center;
+    cursor: pointer;
+    color: #f1f1f1; 
+ }
+ .search-icon {
+    color: white;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+ }
+ form.example input[type=text] {
+    border-right: 0px none;
+    outline: none;
+ }
+ .search-icon{
+    border-left: none;
+ }
+ form.example input[type=text] .search-icon{
+    flex-flow:wrap-reverse;
+ }
+.star img {
+    padding-top: 10px;
+    width: 15px;
+}
+.review p {
+    padding: 0;
+    margin: 10px;
+}
+.popular p {
+   display: inline-block;
+    justify-content: center;
+   width: 170px;
+   justify-content: space-between;
+   margin: 10px;
+}
+p {
+    border-spacing: 100px;
+}
+.endtext h2{
+    display: flex;
+    flex-direction: row ;
+    justify-content:  space-evenly;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight:lighter;
+    /* padding: 10px; */
+}
+h2{
+text-decoration: underline;
+}
+.endimg {
+    display: flex;
+    flex-direction: row ;
+    justify-content:  space-evenly;
+}
+.endimg img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .navbar ul li a,
+    .navbar button {
+        display:none;
+    }
+    .navbar .toggle-btn {
+        display: block;
+    }
+    .middlesection .center{
+        margin: 0 auto;
+        display: block;
+        justify-content: center;  
+    }
+    h1{
+        font-size: 25px;
+        line-height: 25px;
+        font-family: Arial;
+    }
+        
+     p {
+        font-size: 15px;
+    }
+    .accomplishments  {
+        font-size: 8px;
+    }
+    .feats .accomplishments p{
+        display: inline-block;
+        padding: 2px;
+        justify-content: space-evenly;
+        margin-top: 0;
+        font-size: 13x;
+    }
+        form.example .search ::placeholder {
+            font-size: 10px;
+        }
+        .search-icon{
+            font-size: 10px;
+        }
+        .srch-form {
+            justify-content: center;
+        }
+        .star img {
+            width: 10px;
+            align-items: center;
+        }
+}
+    
